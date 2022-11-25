@@ -5,7 +5,7 @@
  */
 
 body {
-    font-family: 'Montserrat', sans-serif!important;
+  font-family: 'Montserrat', sans-serif !important;
 
 }
 
@@ -15,34 +15,45 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Montserrat', sans-serif!important;
+  font-family: 'Montserrat', sans-serif !important;
 
   font-weight: 700;
 }
 
 
- @-webkit-keyframes scrollBad {
-    0% {background-position: 0 0;}
-    100% {background-position: 0 -500px;}
+@-webkit-keyframes scrollBad {
+  0% {
+    background-position: 0 0;
   }
-  @keyframes scrollBad {
-    0% {background-position: 0 0;}
-    100% {background-position: 0 -500px;}
+
+  100% {
+    background-position: 0 -500px;
   }
+}
+
+@keyframes scrollBad {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 0 -500px;
+  }
+}
 
 header.masthead {
   position: relative;
   padding-top: 8rem;
   padding-bottom: 8rem;
-     background-color: var(--gry)!important;
-    background-image: url("../img/back.png")!important;
-    background-position: center center;
-    background-size: 500px!important;
-    
-    background-repeat: repeat!important;
-    -webkit-animation: scrollBad 15s linear infinite!important;
-    animation: scrollBad 15s linear infinite!important;
-    box-shadow: inset 0 -40px 47px rgba(3, 13, 32, 0.358)!important;
+  background-color: var(--gry) !important;
+  background-image: url("../img/back.png") !important;
+  background-position: center center;
+  background-size: 500px !important;
+
+  background-repeat: repeat !important;
+  -webkit-animation: scrollBad 15s linear infinite !important;
+  animation: scrollBad 15s linear infinite !important;
+  box-shadow: inset 0 -40px 47px rgba(3, 13, 32, 0.358) !important;
 }
 
 header.masthead .overlay {
@@ -64,6 +75,7 @@ header.masthead h1 {
     padding-top: 12rem;
     padding-bottom: 12rem;
   }
+
   header.masthead h1 {
     font-size: 3rem;
   }
