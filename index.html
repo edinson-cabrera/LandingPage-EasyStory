@@ -135,6 +135,19 @@
   </section>
 
   <!-- This snippet uses Font Awesome 5 Free as a dependency. You can download it at fontawesome.io! -->
+  <section class="about-the-product py-5">
+    <h2>About the product</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/uM6b66_NIxo" title="YouTube video player"
+      frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
+  </section>
+
+  <section class="about-the-team py-5">
+    <h2>About the team</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/mgA-C_SRhww" title="YouTube video player"
+      frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
+  </section>
 
   <section class="pricing py-5">
     <div class="container">
@@ -147,7 +160,7 @@
                 PLAN GRATIS
               </h5>
               <h6 class="card-price text-center">
-                $0<span class="period">/mes</span>
+                $00004<span class="period">/mes</span>
               </h6>
               <hr />
               <ul class="fa-ul">
@@ -367,9 +380,9 @@
     form.addEventListener("submit", (e) => {
       e.preventDefault();
       fetch(scriptURL, {
-          method: "POST",
-          body: new FormData(form),
-        })
+        method: "POST",
+        body: new FormData(form),
+      })
         .then((response) => console.log("Petitiont sent succesfully"))
         .catch((error) => console.error("Error!", error.message));
     });
